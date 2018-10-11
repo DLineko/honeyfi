@@ -1,0 +1,105 @@
+.logo{
+	float: left;
+}
+.logo_text{
+    display: inline-block;  
+    color: #8169FA !important;
+    margin: 5px 5px;
+    font-family: "Heiti TC", "Heiti SC", Sans-Serif;
+    font-weight: bold !important;
+    font-size: 20px;
+}
+.myheader_nav{
+	padding: 5px;
+}
+.get_the_app{
+	width: 120px;
+	height: 44px;
+	text-align: center;
+	border: 2px solid #8169FA;
+    border-radius: 20px;
+    margin: 2px; 	
+}
+.get_the_app a{
+	line-height: 13px !important;
+	color:#8169FA !important;
+	font-size: 16px;
+}
+.get_the_app:hover{
+	background:#8169FA;
+}
+.get_the_app:hover a{
+	color: white !important;
+}
+.Faq,.BLog{
+	font-size: 15px;
+	 color: #7f7f7f;
+	 margin-right: -8px;
+}
+.Faq,.BLog:hover{
+	color: black;
+}
+/*固定*/
+.fixed-top{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #8169FA;
+    color: #ffffff;
+}
+.pics{
+	background: linen;
+	margin-top: 8%;
+}
+footer{
+	background-color: #8169FA;
+    padding: 115px 0 55px 0;
+}
+
+.social-row li{
+	width: 65px;
+	height:65px;
+	border-radius: 50px;
+	margin: 15px;
+	background: white;
+}
+.social-row li i{
+	    color: #8169FA;
+	   
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.social-row svg{
+	font-size:2em;
+	margin: 16px 0;
+	    color: #8169FA;
+}
+.policies-row{
+	color: white;
+
+}
+.policies-row li{
+		font-size: 16px;
+}
+.head-expand-move{
+	padding-right:33px;
+	transition:200ms all ease-in;
+}
+/**/
+.social-row li:hover{
+	background:#5bc6f9;
+}
+.pics button:hover{
+	background:#8169FA;
+	color: white;
+}
+
+.text_click .modal-dialog{
+	width: 500px;
+	
+}

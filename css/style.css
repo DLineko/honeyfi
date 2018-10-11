@@ -1,0 +1,419 @@
+.logo{
+	float: left;
+}
+.logo_text{
+    display: inline-block;  
+    color: #8169FA;
+    margin: 5px 5px;
+    font-family: "Heiti TC", "Heiti SC", Sans-Serif;
+    font-weight: bold !important;
+    font-size: 20px;
+}
+.myheader_nav{
+	padding: 5px;
+}
+.get_the_app{
+	width: 120px;
+	height: 44px;
+	text-align: center;
+	border: 2px solid #8169FA;
+    border-radius: 20px;
+    margin: 2px; 	
+}
+.get_the_app a{
+	line-height: 13px !important;
+	color:#8169FA;
+	font-size: 16px;
+}
+.get_the_app:hover{
+	background:#8169FA;
+}
+.get_the_app:hover a{
+	color: white !important;
+}
+.Faq a,.BLog a{
+	font-size: 15px;
+	 color: #7f7f7f;
+	 margin-right: -8px;
+}
+.Faq a:hover,.BLog a:hover{
+	color: rgba(0,0,0,.7);
+
+}
+
+/*固定*/
+.fixed-top{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #8169FA;
+    color: #ffffff;
+}
+.pics{
+	/*background: linen;*/
+	margin-top: 8%;
+}
+/*三张图片*/
+.polaroids{
+    /*width: 540px;*/
+      min-height: 300px;
+    position: relative;
+    display: inline-block;
+}
+.jer_pol{
+	position: absolute;
+	right: 10px;
+    max-width: 50%;
+    animation-delay: 1s;
+    
+}
+.kay_pol{
+	position: absolute;
+    max-width: 50%;   
+    animation-delay: 1.3s;
+}
+.che_pol{
+	position: absolute;
+    max-width: 50%;
+    left: 22%;
+    bottom: 12%;
+    animation-delay: .5s;
+}
+.pic_hover{
+	position: absolute;
+	z-index: 1;
+	transform: scale(1.1);
+	transition: 100ms all ease-in;
+}
+.statement h1{
+	font-weight: 700;
+	font-size: 2.4em;
+	color: #4A4A4A;
+}
+.statement h2{
+	font-size: 1.6em;
+	font-size: 300;
+	margin-top: 45px;
+    margin-bottom: 45px;
+    color: #4A4A4A;
+}
+.statement h3{
+	font-size: 1em;
+	color: #9B9B9B;
+	text-align: center;
+}
+.statement button{
+    border: 1px solid #9B9B9B;
+    color: #9B9B9B;
+    border-radius: 50px;
+    background: white;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.align-self-center{
+	align-self: center !important;
+}
+
+/*点击后出现介绍模态框*/
+/*.pic_click .modal-dialog{
+	width: 800px;
+}*/
+
+/*banner*/
+.ads_banner{
+	/*background:#f6f6f6;*/
+	height: 100px;
+	display: flex;
+}
+.press{
+	/*height: 100px;*/
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: 150px 0px;
+	background: #f6f6f6;
+	
+}
+.press img {
+    max-height: 40px;
+    max-width: 80%;
+}
+.col{
+	flex: 1;
+}
+
+/*value*/
+.value-prop .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /*background: lightblue;*/
+}
+
+.value-prop .row{
+	display: flex;
+}
+.value-prop h1{
+	 font-size: 1.6em;
+	 font-weight: bold;
+}
+.value-prop h1 span{
+	 color: #5BC6F9;
+	 text-decoration: underline  #4A4A4A;
+}
+.value-prop h2{
+	font-size: 1.2em !important;
+	 margin-top: 50px;
+	font-weight: 300;
+	line-height: 1.4em !important;
+}
+/*user-test*/
+.user-testimonials{
+	 background: #5BC6F9;
+	 padding-bottom: 15px;
+}
+.user-testimonials p{
+	font-size: 1.6em !important;
+	color: white;
+	font-weight: bold;
+}
+.quote-box{
+	min-height: 130px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: #ffffff;
+    border: 1px solid #9B9B9B;
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 15px;
+    vertical-align: middle;
+}
+.quote-box h4{
+	font-size: 1.2em;
+}
+.float-right{
+	float: right;
+}
+.qb1,.qb4{
+	animation-delay: 50ms;
+}
+.qb2,.qb5{
+	animation-delay: 350ms;
+}
+.qb3,.qb6{
+	animation-delay: 650ms;
+}
+.supports{
+	    background: #f6f6f6;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+.supports img {
+    max-height: 100px;
+    max-width: 80%;
+}
+.second-cta{
+	background: white;
+	height: 400px;
+}
+.second-cta .row{
+	height: 400px;
+}
+.second-cta h1{
+	font-size: 1.6em !important;
+	font-weight: bold;
+}
+footer{
+	background-color: #8169FA;
+    padding: 115px 0 55px 0;
+}
+
+.social-row li{
+	width: 65px;
+	height:65px;
+	border-radius: 50px;
+	margin: 15px;
+	background: white;
+}
+.social-row li i{
+	    color: #8169FA;
+	   
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.social-row svg{
+	font-size:2em;
+	margin: 16px 0;
+	    color: #8169FA;
+}
+.policies-row{
+	color: white;
+
+}
+.policies-row li{
+		font-size: 16px;
+}
+.head-expand-move{
+	padding-right:33px;
+	transition:200ms all ease-in;
+}
+/**/
+.social-row li:hover{
+	background:#5bc6f9;
+}
+.pics button:hover{
+	background:#8169FA;
+	color: white;
+}
+
+.text_click .modal-dialog{
+	width: 500px;
+	
+}
+.logo-dark{
+	display: none !important;
+}
+.navbar-fixed-top{
+	  background: rgba(255,255,255,0.95);
+	  border: 1px solid transparent;
+	  transition: 0.3s all ease-in-out;
+	
+}
+.navbar-dark{
+	background: #8169FA;
+ 
+}
+.navbar-dark a{
+	color: white;
+}
+.navbar-dark span{
+	color: white;
+}
+
+.navbar-dark .logo{
+	display: none;
+}
+.navbar-dark .logo-dark{
+	display: inline-block !important;
+}
+.navbar-dark .get_the_app{
+	border-color: white;
+}
+.navbar-toggle{
+border-color: rgba(0,0,0,.1) !important;
+}
+.navbar-toggle span{
+	background: rgba(0,0,0,.3);
+}
+.navbar-dark .header-get-xs{
+	border-color:white;
+}
+.navbar-dark .header-get-xs a{
+	color: white;
+}
+.header-get-xs{
+	position: absolute;
+      right: 70px;
+    top: 12px;
+    color: #8169FA;
+    border: 2px solid #8169FA;
+    padding: 3px 10px;
+    border-radius: 14px;
+}
+.header-get-xs a{
+	color: #8169FA;
+	text-decoration: none;
+}
+.header-get-xs:hover{
+	background:#8169FA;
+}
+
+.header-get-xs:hover a{
+	color: white !important;
+
+}
+.modal img {
+    max-width: 100%;
+}
+/*****************************媒体查询***************************/
+@media (max-width: 576px){
+.col-none{
+		display: none;
+	}
+.d-sm-block{
+		display: none !important;
+}
+}
+@media (min-width: 576px)
+{
+.modal-dialog {
+    max-width: 500px;
+    margin: 30px auto;
+}
+	
+}
+@media (min-width: 576px) and (max-width:768px)
+{
+.container {
+    max-width: 540px;
+}
+}
+@media (max-width: 768px)
+{
+.supports img{
+    padding-bottom: 40px;
+}
+.value-prop .row {
+    display: block;
+}
+.value-xs h1{
+	text-align: center;
+}
+.value-xs h2{
+	margin-top: 20px;
+	text-align: center;
+}
+.d-none{
+	display: none;
+}
+.press{
+	margin: 50px 0;
+}
+.press img{
+    max-height: 30px;
+}
+.statement{
+	text-align: center;
+}
+.value-prop .container {
+    margin-top: 0px;
+}
+.all_click .row{
+	display: block !important;
+}
+}
+@media(min-width: 768px)
+{
+.col-md-6 {
+    /*flex: 0 0 50%;*/
+    max-width: 50%;
+}
+.user-row{
+	display: flex;
+}
+.che_pol{
+	top: 30%;
+}
+}
+@media (min-width: 992px)
+{
+.modal-lg{
+    max-width: 800px;
+}
+}

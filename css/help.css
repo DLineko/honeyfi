@@ -1,0 +1,103 @@
+header{
+	color: white;
+    padding: 35px 0;
+    /*margin-bottom: 7px;*/   
+    flex: none;
+     position: relative; 
+     background:url(../img/Background_1024x500.jpeg);
+    /* z-index: 10; */
+    background-size: cover;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+    background-position: 50%;
+	
+}
+.content{
+	max-width: 100%;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.logo_pic{
+	display: inline-block;
+}
+.logo_aside{
+	display: inline-block;
+	float: right;
+}
+
+.header_headline{
+	    font-size: 28px;
+    font-weight: 300;
+    margin: 10 0 27px;
+    color: inherit;
+}
+.header_form{
+	position: relative;
+}
+.header_form input{
+	margin-top: 20px;
+	width: 100%;
+    padding: 20px 32px 21px 59px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    outline: none;
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
+    -webkit-transition: background .4s, box-shadow .2s;
+    transition: background .4s, box-shadow .2s;
+}
+.header_form input::placeholder{
+	color: rgba(255,255,255,0.7);
+}
+section{
+	background: #f3f5f7;
+}
+.header_form img{
+	 position: absolute;
+    top: 45%;
+    left: 15px;
+}
+.collect_photo{
+	width:48px;
+	/*max-width: 48px;*/
+	stroke: #818a97;
+
+}
+.photo{
+	padding-top: 4%;
+    padding-left: 4%;
+    text-align: center;
+    width: 120px;
+    float: left;
+
+}
+
+.container{
+	padding-top: 26px;
+}
+.educate_content{
+	background: white;
+	height: 126px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	border: 1px solid #d4dadf;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.03);
+}
+
+.collection_meta{
+	display: inline-block;
+	    margin:  1% 5%;
+}
+@media(max-width: 1023px)
+{
+.collect_photo{
+    width: 30px;
+    /*max-height: 30px;*/
+    margin:25px;
+}
+
+
+}
