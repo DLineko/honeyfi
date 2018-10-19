@@ -101,3 +101,16 @@ section{
 
 
 }
+@media (max-width:400px ) {
+.photo{
+    height: 30px;
+    padding-top: 0px;
+    padding-left: 0px;
+    text-align: left;
+    padding-left: -50px;
+    margin-bottom: 12px;
+}
+.educate_content{
+	height: 176px;
+}
+}
